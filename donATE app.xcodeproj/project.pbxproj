@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,8 @@
 		AD04769724A11FDF002CEE39 /* donATE_app.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = AD04769524A11FDF002CEE39 /* donATE_app.xcdatamodeld */; };
 		AD04769924A11FE4002CEE39 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AD04769824A11FE4002CEE39 /* Assets.xcassets */; };
 		AD04769C24A11FE4002CEE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD04769A24A11FE4002CEE39 /* LaunchScreen.storyboard */; };
+		AD0476CD24A3A84D002CEE39 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0476CC24A3A84D002CEE39 /* HomePageViewController.swift */; };
+		AD0476CF24A3A88B002CEE39 /* TrackDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0476CE24A3A88B002CEE39 /* TrackDonationsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +31,8 @@
 		AD04769824A11FE4002CEE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD04769B24A11FE4002CEE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD04769D24A11FE4002CEE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD0476CC24A3A84D002CEE39 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
+		AD0476CE24A3A88B002CEE39 /* TrackDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDonationsViewController.swift; sourceTree = "<group>"; };
 		D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donATE app.release.xcconfig"; path = "Target Support Files/Pods-donATE app/Pods-donATE app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -50,7 +54,6 @@
 				42E49B3B7FB17CE72DEF8A17 /* Pods-donATE app.debug.xcconfig */,
 				D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -91,6 +94,8 @@
 				AD04769A24A11FE4002CEE39 /* LaunchScreen.storyboard */,
 				AD04769D24A11FE4002CEE39 /* Info.plist */,
 				AD04769524A11FDF002CEE39 /* donATE_app.xcdatamodeld */,
+				AD0476CC24A3A84D002CEE39 /* HomePageViewController.swift */,
+				AD0476CE24A3A88B002CEE39 /* TrackDonationsViewController.swift */,
 			);
 			path = "donATE app";
 			sourceTree = "<group>";
@@ -228,9 +233,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AD0476CF24A3A88B002CEE39 /* TrackDonationsViewController.swift in Sources */,
 				AD04769124A11FDF002CEE39 /* ViewController.swift in Sources */,
 				AD04768D24A11FDF002CEE39 /* AppDelegate.swift in Sources */,
 				AD04769724A11FDF002CEE39 /* donATE_app.xcdatamodeld in Sources */,
+				AD0476CD24A3A84D002CEE39 /* HomePageViewController.swift in Sources */,
 				AD04768F24A11FDF002CEE39 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
