@@ -51,10 +51,13 @@ class TrackDonationsViewController: UIViewController, UIImagePickerControllerDel
     
     @IBOutlet weak var insertMessage: UILabel!
     
-    @IBOutlet weak var amountTextField: UITextField!
+    
  
     @IBOutlet weak var orgTextField: UITextField!
     @IBOutlet weak var dateTextField: UITextField!
+    @IBOutlet weak var amountTextField: UITextField!
+    
+    
     @IBAction func recordDonationButtonTapped(_ sender: Any) {
         
         if orgTextField.text != "" || dateTextField.text != "" || amountTextField.text != ""{
