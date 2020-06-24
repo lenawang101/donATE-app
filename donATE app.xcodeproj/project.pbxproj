@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30228C2DE70F3DDF8E66BA30 /* Pods_donATE_app.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E55F38CAA75C1F1900CFCB6 /* Pods_donATE_app.framework */; };
 		AD04768D24A11FDF002CEE39 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04768C24A11FDF002CEE39 /* AppDelegate.swift */; };
 		AD04768F24A11FDF002CEE39 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04768E24A11FDF002CEE39 /* SceneDelegate.swift */; };
 		AD04769124A11FDF002CEE39 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD04769024A11FDF002CEE39 /* ViewController.swift */; };
@@ -17,6 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E55F38CAA75C1F1900CFCB6 /* Pods_donATE_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_donATE_app.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		42E49B3B7FB17CE72DEF8A17 /* Pods-donATE app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donATE app.debug.xcconfig"; path = "Target Support Files/Pods-donATE app/Pods-donATE app.debug.xcconfig"; sourceTree = "<group>"; };
 		AD04768924A11FDF002CEE39 /* donATE app.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "donATE app.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AD04768C24A11FDF002CEE39 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AD04768E24A11FDF002CEE39 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +29,7 @@
 		AD04769824A11FE4002CEE39 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AD04769B24A11FE4002CEE39 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AD04769D24A11FE4002CEE39 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donATE app.release.xcconfig"; path = "Target Support Files/Pods-donATE app/Pods-donATE app.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +37,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30228C2DE70F3DDF8E66BA30 /* Pods_donATE_app.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06A2EA8B4355543B6B9CC5B3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				42E49B3B7FB17CE72DEF8A17 /* Pods-donATE app.debug.xcconfig */,
+				D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		0E8FC2D6FFC2D29922091982 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E55F38CAA75C1F1900CFCB6 /* Pods_donATE_app.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		AD04768024A11FDE002CEE39 = {
 			isa = PBXGroup;
 			children = (
 				AD04768B24A11FDF002CEE39 /* donATE app */,
 				AD04768A24A11FDF002CEE39 /* Products */,
+				06A2EA8B4355543B6B9CC5B3 /* Pods */,
+				0E8FC2D6FFC2D29922091982 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -77,9 +102,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AD0476A024A11FE4002CEE39 /* Build configuration list for PBXNativeTarget "donATE app" */;
 			buildPhases = (
+				DAFC1A45EA6EACEFC3B92B5C /* [CP] Check Pods Manifest.lock */,
 				AD04768524A11FDE002CEE39 /* Sources */,
 				AD04768624A11FDE002CEE39 /* Frameworks */,
 				AD04768724A11FDE002CEE39 /* Resources */,
+				D5F95E606C38E31549B502A7 /* [CP] Embed Pods Frameworks */,
+				D3F912EFE840EEB4E824215F /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -135,6 +163,65 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D3F912EFE840EEB4E824215F /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D5F95E606C38E31549B502A7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-donATE app/Pods-donATE app-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DAFC1A45EA6EACEFC3B92B5C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-donATE app-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AD04768524A11FDE002CEE39 /* Sources */ = {
@@ -286,6 +373,7 @@
 		};
 		AD0476A124A11FE4002CEE39 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 42E49B3B7FB17CE72DEF8A17 /* Pods-donATE app.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -303,6 +391,7 @@
 		};
 		AD0476A224A11FE4002CEE39 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

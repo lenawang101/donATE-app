@@ -1,0 +1,909 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXAggregateTarget section */
+		0C1885900810601510E0C632060FAF26 /* GooglePlaces */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */;
+			buildPhases = (
+			);
+			dependencies = (
+				2E56B4E1710657CDFDE7C7D21B281577 /* PBXTargetDependency */,
+			);
+			name = GooglePlaces;
+		};
+		E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = 46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */;
+			buildPhases = (
+			);
+			dependencies = (
+			);
+			name = GoogleMaps;
+		};
+/* End PBXAggregateTarget section */
+
+/* Begin PBXBuildFile section */
+		1A0A4DA00FEBE1D3C37524427F5F943B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 312B988EF117AE4DE76A268D970131FE /* UIKit.framework */; };
+		1C54DCEE8704ED0CD505BB546246E3B8 /* GooglePlacePickerViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = AF317682B4DF2980BBC5CD5C875B355C /* GooglePlacePickerViewController.xib */; };
+		1F9DB53573AE6C4D5E8A83FB5BBEB601 /* GooglePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 41E3BAB447583D62265D1D361B10A978 /* GooglePlace.swift */; };
+		33999DC9C7E7BFB39BE80EA51E923BBE /* GooglePlacesPresentationAnimationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F51F498CE9E1E1F656A48492B35AC857 /* GooglePlacesPresentationAnimationController.swift */; };
+		33FCE0D8021527B74044B069E6608A17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		37E9CEDF1C5B715E51E330949863BD98 /* Pods-donATE app-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B70313D27F4B75CC2A2E57A3CB311E7A /* Pods-donATE app-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40D3D27552C11ED232A54210D7C873A5 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 772F6687E1DFED4DA5CF0FF7EA9BB0F1 /* Images.xcassets */; };
+		43EDB4EF055203CE8AD905CDEF90D47B /* GooglePlacesPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E481A33AC06A297CC0A32C0F810E8738 /* GooglePlacesPresentationController.swift */; };
+		48172EE323E979308666E8F70EA051F1 /* Pods-donATE app-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B9C5E127C9D7E7EC4C177D7B8F75C7F /* Pods-donATE app-dummy.m */; };
+		500D5D4A0306895616CBAE51413E6566 /* GooglePlacesPicker-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A0F93F7F2341BAEB3A3FCBE18090B9CE /* GooglePlacesPicker-dummy.m */; };
+		AAF41C5ED817041CC1B973C1EB9D17B7 /* GooglePlacePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0BD6BF4FB7CA8610212B9CADC33DBB85 /* GooglePlacePickerViewController.swift */; };
+		B7EB422FA3116FB21E330F5A768A2DE3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */; };
+		E58D7EF275ABF8DCAEBA1AB1033B9F48 /* GooglePlacesPicker-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0AA0A9C2E4837923365BDD21B55A639F /* GooglePlacesPicker-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F839CACBD8504EDE5A3A04B7A9C7CD6F /* GooglePlacesReciever.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95DB92BB425AF8815FB4FC3A97B32FD9 /* GooglePlacesReciever.swift */; };
+		FF363177C98114A13884AD7A4686E3F2 /* GooglePlacesCell.xib in Sources */ = {isa = PBXBuildFile; fileRef = EA494067E2926B4C91C88E22783D9756 /* GooglePlacesCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5569E01EEF56BE4C199291F7DE75BDA5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+		7155F017A647DCE2227A4AAA7A25A674 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0C1885900810601510E0C632060FAF26;
+			remoteInfo = GooglePlaces;
+		};
+		901603AE33634BDF61B064A8F09116BD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9C9A61CC8EE68232FEEB5F8D26F36281;
+			remoteInfo = GooglePlacesPicker;
+		};
+		EB324557B575DC12C861C6503AA7E437 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E5B4BBC6DD552AC8943C7E22772FC1D3;
+			remoteInfo = GoogleMaps;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0122F21A57382A9C5B0A98FA6241E64A /* GooglePlaces.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.release.xcconfig; sourceTree = "<group>"; };
+		0AA0A9C2E4837923365BDD21B55A639F /* GooglePlacesPicker-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesPicker-umbrella.h"; sourceTree = "<group>"; };
+		0B9C5E127C9D7E7EC4C177D7B8F75C7F /* Pods-donATE app-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-donATE app-dummy.m"; sourceTree = "<group>"; };
+		0BD6BF4FB7CA8610212B9CADC33DBB85 /* GooglePlacePickerViewController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacePickerViewController.swift; path = Classes/GooglePlacePickerViewController.swift; sourceTree = "<group>"; };
+		1592D2DFA384D1B97C20CF2B9E49BCFC /* Pods-donATE app-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-donATE app-Info.plist"; sourceTree = "<group>"; };
+		1A063D5FDBDD0A40763C1D47DE0EC5FD /* GooglePlacesPicker-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "GooglePlacesPicker-Info.plist"; sourceTree = "<group>"; };
+		233FF0BFA861B1A57245AA73566DEE06 /* Pods-donATE app-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-donATE app-frameworks.sh"; sourceTree = "<group>"; };
+		2971451369DE3CD537CED97CC5EF40E4 /* GooglePlacesPicker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlacesPicker.debug.xcconfig; sourceTree = "<group>"; };
+		312B988EF117AE4DE76A268D970131FE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		38DC287C54924D04F15834C7518A0F80 /* GooglePlaces.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlaces.debug.xcconfig; sourceTree = "<group>"; };
+		3E0C123145F5671F0978824D92D2C07A /* Pods-donATE app-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-donATE app-resources.sh"; sourceTree = "<group>"; };
+		402AED6EF79BA1A624C541EF1287698C /* GooglePlaces.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GooglePlaces.framework; path = Frameworks/GooglePlaces.framework; sourceTree = "<group>"; };
+		41E3BAB447583D62265D1D361B10A978 /* GooglePlace.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlace.swift; path = Classes/GooglePlace.swift; sourceTree = "<group>"; };
+		436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		49FB62374497E276713394A2390CF4D9 /* GooglePlaces.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GooglePlaces.bundle; path = Frameworks/GooglePlaces.framework/Resources/GooglePlaces.bundle; sourceTree = "<group>"; };
+		4DEECC2CC695B76E3A47F277BF15F68C /* GoogleMaps.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.debug.xcconfig; sourceTree = "<group>"; };
+		5892E352A6DFE28B9591550EF6CB61E3 /* Pods-donATE app.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-donATE app.debug.xcconfig"; sourceTree = "<group>"; };
+		59CB695F2B136095B92F4FEDF0A2FCC5 /* GooglePlacesPicker.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = GooglePlacesPicker.modulemap; sourceTree = "<group>"; };
+		60EF27D7654447DB0E693C2EB3DEAD08 /* GoogleMaps.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GoogleMaps.release.xcconfig; sourceTree = "<group>"; };
+		772F6687E1DFED4DA5CF0FF7EA9BB0F1 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7BD8024D0E0C41489347D74F29341C9A /* Pods-donATE app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-donATE app.release.xcconfig"; sourceTree = "<group>"; };
+		87B3DEB9ADEAE0A6131063D4FBABAA7A /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsCore.framework; path = Maps/Frameworks/GoogleMapsCore.framework; sourceTree = "<group>"; };
+		95DB92BB425AF8815FB4FC3A97B32FD9 /* GooglePlacesReciever.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacesReciever.swift; path = Classes/GooglePlacesReciever.swift; sourceTree = "<group>"; };
+		997DCE8372E4FA9F988FE273E20FB1E5 /* GoogleMaps.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = Maps/Frameworks/GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		9CC32920E75876B5363663C255A8C89A /* Pods_donATE_app.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_donATE_app.framework; path = "Pods-donATE app.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A0F93F7F2341BAEB3A3FCBE18090B9CE /* GooglePlacesPicker-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "GooglePlacesPicker-dummy.m"; sourceTree = "<group>"; };
+		A179606CFDD82DCCDFAA03D66D2A36AB /* Pods-donATE app.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-donATE app.modulemap"; sourceTree = "<group>"; };
+		A748674879C7119AA6028FF85097963F /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMapsBase.framework; path = Base/Frameworks/GoogleMapsBase.framework; sourceTree = "<group>"; };
+		AF317682B4DF2980BBC5CD5C875B355C /* GooglePlacePickerViewController.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GooglePlacePickerViewController.xib; path = Classes/GooglePlacePickerViewController.xib; sourceTree = "<group>"; };
+		B70313D27F4B75CC2A2E57A3CB311E7A /* Pods-donATE app-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-donATE app-umbrella.h"; sourceTree = "<group>"; };
+		BD5FF5CB5F6C2F801474813AF69ED284 /* GooglePlacesPicker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = GooglePlacesPicker.framework; path = GooglePlacesPicker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C182627428D882F9A25133BCC42BA04A /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GoogleMaps.framework; path = Maps/Frameworks/GoogleMaps.framework; sourceTree = "<group>"; };
+		C1AAB65B29212563D03C592B6D11FA61 /* GooglePlacesPicker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = GooglePlacesPicker.release.xcconfig; sourceTree = "<group>"; };
+		D65BA7955BE854C1281B2AAE658050D9 /* Pods-donATE app-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-donATE app-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E481A33AC06A297CC0A32C0F810E8738 /* GooglePlacesPresentationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacesPresentationController.swift; path = Classes/GooglePlacesPresentationController.swift; sourceTree = "<group>"; };
+		EA494067E2926B4C91C88E22783D9756 /* GooglePlacesCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = GooglePlacesCell.xib; path = Classes/GooglePlacesCell.xib; sourceTree = "<group>"; };
+		ECF05CA1A7D5A901044F21747016F4E9 /* GooglePlacesPicker-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "GooglePlacesPicker-prefix.pch"; sourceTree = "<group>"; };
+		F51F498CE9E1E1F656A48492B35AC857 /* GooglePlacesPresentationAnimationController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = GooglePlacesPresentationAnimationController.swift; path = Classes/GooglePlacesPresentationAnimationController.swift; sourceTree = "<group>"; };
+		FFD1789544A0D8ABE95487AF45F4F2E7 /* Pods-donATE app-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-donATE app-acknowledgements.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01AE338E15D2FF75721AD81CDAEF7D5F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				33FCE0D8021527B74044B069E6608A17 /* Foundation.framework in Frameworks */,
+				1A0A4DA00FEBE1D3C37524427F5F943B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A3C0976D40F65D31D9548B0079AAC76 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7EB422FA3116FB21E330F5A768A2DE3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F5803C34757B6883D78CDB12D87947 /* GooglePlaces */ = {
+			isa = PBXGroup;
+			children = (
+				46AEF557A0FC0B2536915DF73DA42C16 /* Frameworks */,
+				A05D4C979B0BFB1E92F457280EB940E3 /* Resources */,
+				FABE4E3B5AAF9186DDDFFE29CB0241BE /* Support Files */,
+			);
+			name = GooglePlaces;
+			path = GooglePlaces;
+			sourceTree = "<group>";
+		};
+		0D70607032366FAB508CE4006A09659C /* Maps */ = {
+			isa = PBXGroup;
+			children = (
+				DCEC29207D8A016B2C4A92D309737E78 /* Frameworks */,
+				3FEDB3C41E22DA1C4B1DD295335EDDA5 /* Resources */,
+			);
+			name = Maps;
+			sourceTree = "<group>";
+		};
+		1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E2983683FD097A93297E2F5D4E382B36 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3E7A3A1FEB4E6B5FAC3673D24320142D /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				E52E546E61E81557819F355A374D6111 /* Frameworks */,
+			);
+			name = Base;
+			sourceTree = "<group>";
+		};
+		3FEDB3C41E22DA1C4B1DD295335EDDA5 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				997DCE8372E4FA9F988FE273E20FB1E5 /* GoogleMaps.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		46AEF557A0FC0B2536915DF73DA42C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				402AED6EF79BA1A624C541EF1287698C /* GooglePlaces.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4E51CF532E59F64577BB41F0791E822F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD5FF5CB5F6C2F801474813AF69ED284 /* GooglePlacesPicker.framework */,
+				9CC32920E75876B5363663C255A8C89A /* Pods_donATE_app.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		53B92968132B40406C5BD9772F30CFD9 /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				3E7A3A1FEB4E6B5FAC3673D24320142D /* Base */,
+				0D70607032366FAB508CE4006A09659C /* Maps */,
+				53EA1DF70E275C2AE59360D103EF33D2 /* Support Files */,
+			);
+			name = GoogleMaps;
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		53EA1DF70E275C2AE59360D103EF33D2 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4DEECC2CC695B76E3A47F277BF15F68C /* GoogleMaps.debug.xcconfig */,
+				60EF27D7654447DB0E693C2EB3DEAD08 /* GoogleMaps.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GoogleMaps";
+			sourceTree = "<group>";
+		};
+		563198BC6E4321493FBA95EC0F828BB1 /* GooglePlacesPicker */ = {
+			isa = PBXGroup;
+			children = (
+				41E3BAB447583D62265D1D361B10A978 /* GooglePlace.swift */,
+				0BD6BF4FB7CA8610212B9CADC33DBB85 /* GooglePlacePickerViewController.swift */,
+				AF317682B4DF2980BBC5CD5C875B355C /* GooglePlacePickerViewController.xib */,
+				EA494067E2926B4C91C88E22783D9756 /* GooglePlacesCell.xib */,
+				F51F498CE9E1E1F656A48492B35AC857 /* GooglePlacesPresentationAnimationController.swift */,
+				E481A33AC06A297CC0A32C0F810E8738 /* GooglePlacesPresentationController.swift */,
+				95DB92BB425AF8815FB4FC3A97B32FD9 /* GooglePlacesReciever.swift */,
+				6A1CC10AD516138772B17761917D960F /* Resources */,
+				8E635025ABC6525F24E4108B0CF695AA /* Support Files */,
+			);
+			name = GooglePlacesPicker;
+			path = GooglePlacesPicker;
+			sourceTree = "<group>";
+		};
+		6A1CC10AD516138772B17761917D960F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				772F6687E1DFED4DA5CF0FF7EA9BB0F1 /* Images.xcassets */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6DE0050827219B816877A2747C0F0FB9 /* Pods-donATE app */ = {
+			isa = PBXGroup;
+			children = (
+				A179606CFDD82DCCDFAA03D66D2A36AB /* Pods-donATE app.modulemap */,
+				D65BA7955BE854C1281B2AAE658050D9 /* Pods-donATE app-acknowledgements.markdown */,
+				FFD1789544A0D8ABE95487AF45F4F2E7 /* Pods-donATE app-acknowledgements.plist */,
+				0B9C5E127C9D7E7EC4C177D7B8F75C7F /* Pods-donATE app-dummy.m */,
+				233FF0BFA861B1A57245AA73566DEE06 /* Pods-donATE app-frameworks.sh */,
+				1592D2DFA384D1B97C20CF2B9E49BCFC /* Pods-donATE app-Info.plist */,
+				3E0C123145F5671F0978824D92D2C07A /* Pods-donATE app-resources.sh */,
+				B70313D27F4B75CC2A2E57A3CB311E7A /* Pods-donATE app-umbrella.h */,
+				5892E352A6DFE28B9591550EF6CB61E3 /* Pods-donATE app.debug.xcconfig */,
+				7BD8024D0E0C41489347D74F29341C9A /* Pods-donATE app.release.xcconfig */,
+			);
+			name = "Pods-donATE app";
+			path = "Target Support Files/Pods-donATE app";
+			sourceTree = "<group>";
+		};
+		8E635025ABC6525F24E4108B0CF695AA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				59CB695F2B136095B92F4FEDF0A2FCC5 /* GooglePlacesPicker.modulemap */,
+				A0F93F7F2341BAEB3A3FCBE18090B9CE /* GooglePlacesPicker-dummy.m */,
+				1A063D5FDBDD0A40763C1D47DE0EC5FD /* GooglePlacesPicker-Info.plist */,
+				ECF05CA1A7D5A901044F21747016F4E9 /* GooglePlacesPicker-prefix.pch */,
+				0AA0A9C2E4837923365BDD21B55A639F /* GooglePlacesPicker-umbrella.h */,
+				2971451369DE3CD537CED97CC5EF40E4 /* GooglePlacesPicker.debug.xcconfig */,
+				C1AAB65B29212563D03C592B6D11FA61 /* GooglePlacesPicker.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlacesPicker";
+			sourceTree = "<group>";
+		};
+		9AD603C9D7EE9092E4849B2357E9FAD9 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				6DE0050827219B816877A2747C0F0FB9 /* Pods-donATE app */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9FB075133E7E842111EAFAD62F1D5D2D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				53B92968132B40406C5BD9772F30CFD9 /* GoogleMaps */,
+				01F5803C34757B6883D78CDB12D87947 /* GooglePlaces */,
+				563198BC6E4321493FBA95EC0F828BB1 /* GooglePlacesPicker */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A05D4C979B0BFB1E92F457280EB940E3 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				49FB62374497E276713394A2390CF4D9 /* GooglePlaces.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1628BF05B4CAFDCC3549A101F5A10A17 /* Frameworks */,
+				9FB075133E7E842111EAFAD62F1D5D2D /* Pods */,
+				4E51CF532E59F64577BB41F0791E822F /* Products */,
+				9AD603C9D7EE9092E4849B2357E9FAD9 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		DCEC29207D8A016B2C4A92D309737E78 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C182627428D882F9A25133BCC42BA04A /* GoogleMaps.framework */,
+				87B3DEB9ADEAE0A6131063D4FBABAA7A /* GoogleMapsCore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E2983683FD097A93297E2F5D4E382B36 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				436BAA54A31999B53B3CC7115C55FE50 /* Foundation.framework */,
+				312B988EF117AE4DE76A268D970131FE /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		E52E546E61E81557819F355A374D6111 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A748674879C7119AA6028FF85097963F /* GoogleMapsBase.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FABE4E3B5AAF9186DDDFFE29CB0241BE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				38DC287C54924D04F15834C7518A0F80 /* GooglePlaces.debug.xcconfig */,
+				0122F21A57382A9C5B0A98FA6241E64A /* GooglePlaces.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/GooglePlaces";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		327E2BDCBEEC420DDF354E537B8C1C7B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E58D7EF275ABF8DCAEBA1AB1033B9F48 /* GooglePlacesPicker-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C5EB0AEFAD6BF9C13EDD00261C652419 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37E9CEDF1C5B715E51E330949863BD98 /* Pods-donATE app-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7AEE42FA57789E44F42E433E0C22F7C1 /* Pods-donATE app */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 291D3EC11D4A147736BB6B1EA42F0FB4 /* Build configuration list for PBXNativeTarget "Pods-donATE app" */;
+			buildPhases = (
+				C5EB0AEFAD6BF9C13EDD00261C652419 /* Headers */,
+				89D832C83BE724A3B09F893FDD34CE3D /* Sources */,
+				6A3C0976D40F65D31D9548B0079AAC76 /* Frameworks */,
+				E618B6C77095D164B17C2107C97F00B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				31702458F1E818C677A00F3DF370DDD7 /* PBXTargetDependency */,
+				30492D27901B8F7379D5EC5A7D7BC0CE /* PBXTargetDependency */,
+				19EA1541FD00770FAAF2D3B55FDA2CD4 /* PBXTargetDependency */,
+			);
+			name = "Pods-donATE app";
+			productName = "Pods-donATE app";
+			productReference = 9CC32920E75876B5363663C255A8C89A /* Pods_donATE_app.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9C9A61CC8EE68232FEEB5F8D26F36281 /* GooglePlacesPicker */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22BF6793E5199FAE627F41500F9E1B40 /* Build configuration list for PBXNativeTarget "GooglePlacesPicker" */;
+			buildPhases = (
+				327E2BDCBEEC420DDF354E537B8C1C7B /* Headers */,
+				81A61394CEDFA9358F8157FF4CC779ED /* Sources */,
+				01AE338E15D2FF75721AD81CDAEF7D5F /* Frameworks */,
+				84CFA7BFB7DA791F3B27ACFD162EB64A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GooglePlacesPicker;
+			productName = GooglePlacesPicker;
+			productReference = BD5FF5CB5F6C2F801474813AF69ED284 /* GooglePlacesPicker.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 4E51CF532E59F64577BB41F0791E822F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */,
+				0C1885900810601510E0C632060FAF26 /* GooglePlaces */,
+				9C9A61CC8EE68232FEEB5F8D26F36281 /* GooglePlacesPicker */,
+				7AEE42FA57789E44F42E433E0C22F7C1 /* Pods-donATE app */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84CFA7BFB7DA791F3B27ACFD162EB64A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D3D27552C11ED232A54210D7C873A5 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E618B6C77095D164B17C2107C97F00B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		81A61394CEDFA9358F8157FF4CC779ED /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F9DB53573AE6C4D5E8A83FB5BBEB601 /* GooglePlace.swift in Sources */,
+				AAF41C5ED817041CC1B973C1EB9D17B7 /* GooglePlacePickerViewController.swift in Sources */,
+				1C54DCEE8704ED0CD505BB546246E3B8 /* GooglePlacePickerViewController.xib in Sources */,
+				FF363177C98114A13884AD7A4686E3F2 /* GooglePlacesCell.xib in Sources */,
+				500D5D4A0306895616CBAE51413E6566 /* GooglePlacesPicker-dummy.m in Sources */,
+				33999DC9C7E7BFB39BE80EA51E923BBE /* GooglePlacesPresentationAnimationController.swift in Sources */,
+				43EDB4EF055203CE8AD905CDEF90D47B /* GooglePlacesPresentationController.swift in Sources */,
+				F839CACBD8504EDE5A3A04B7A9C7CD6F /* GooglePlacesReciever.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89D832C83BE724A3B09F893FDD34CE3D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				48172EE323E979308666E8F70EA051F1 /* Pods-donATE app-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		19EA1541FD00770FAAF2D3B55FDA2CD4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlacesPicker;
+			target = 9C9A61CC8EE68232FEEB5F8D26F36281 /* GooglePlacesPicker */;
+			targetProxy = 901603AE33634BDF61B064A8F09116BD /* PBXContainerItemProxy */;
+		};
+		2E56B4E1710657CDFDE7C7D21B281577 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = 5569E01EEF56BE4C199291F7DE75BDA5 /* PBXContainerItemProxy */;
+		};
+		30492D27901B8F7379D5EC5A7D7BC0CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GooglePlaces;
+			target = 0C1885900810601510E0C632060FAF26 /* GooglePlaces */;
+			targetProxy = 7155F017A647DCE2227A4AAA7A25A674 /* PBXContainerItemProxy */;
+		};
+		31702458F1E818C677A00F3DF370DDD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = GoogleMaps;
+			target = E5B4BBC6DD552AC8943C7E22772FC1D3 /* GoogleMaps */;
+			targetProxy = EB324557B575DC12C861C6503AA7E437 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		31264C6B85E5B7A4DEBF1FF0FF2A352B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2971451369DE3CD537CED97CC5EF40E4 /* GooglePlacesPicker.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker.modulemap";
+				PRODUCT_MODULE_NAME = GooglePlacesPicker;
+				PRODUCT_NAME = GooglePlacesPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8688BDC6ACDB0AEBA8E55ECD70CDD953 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1AAB65B29212563D03C592B6D11FA61 /* GooglePlacesPicker.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/GooglePlacesPicker/GooglePlacesPicker.modulemap";
+				PRODUCT_MODULE_NAME = GooglePlacesPicker;
+				PRODUCT_NAME = GooglePlacesPicker;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60EF27D7654447DB0E693C2EB3DEAD08 /* GoogleMaps.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E18554C2DE6A0E95ACB9E8C1F640164D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7BD8024D0E0C41489347D74F29341C9A /* Pods-donATE app.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-donATE app/Pods-donATE app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-donATE app/Pods-donATE app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E1E452060D51DF935547186CE54B26CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4DEECC2CC695B76E3A47F277BF15F68C /* GoogleMaps.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EB832748610153556E106265D1072F48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5892E352A6DFE28B9591550EF6CB61E3 /* Pods-donATE app.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-donATE app/Pods-donATE app-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-donATE app/Pods-donATE app.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		F5F04600F5626DC980F02790D1ED2C19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		F612EF94A7DB77BEC9A01721B62A809E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38DC287C54924D04F15834C7518A0F80 /* GooglePlaces.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE15983873284AD94B26A75BCDAE5E5C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0122F21A57382A9C5B0A98FA6241E64A /* GooglePlaces.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22BF6793E5199FAE627F41500F9E1B40 /* Build configuration list for PBXNativeTarget "GooglePlacesPicker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				31264C6B85E5B7A4DEBF1FF0FF2A352B /* Debug */,
+				8688BDC6ACDB0AEBA8E55ECD70CDD953 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		291D3EC11D4A147736BB6B1EA42F0FB4 /* Build configuration list for PBXNativeTarget "Pods-donATE app" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB832748610153556E106265D1072F48 /* Debug */,
+				E18554C2DE6A0E95ACB9E8C1F640164D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46921981F609C5BA3CB72EC4EA41299D /* Build configuration list for PBXAggregateTarget "GoogleMaps" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E1E452060D51DF935547186CE54B26CC /* Debug */,
+				8CE5BA3EF4F6FABF028CE30772ECDA11 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DFD9D19FEEBF98DE271D7FBABCB845B5 /* Debug */,
+				F5F04600F5626DC980F02790D1ED2C19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E215DFB4EAE26646AFED2C4861A55C32 /* Build configuration list for PBXAggregateTarget "GooglePlaces" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F612EF94A7DB77BEC9A01721B62A809E /* Debug */,
+				FE15983873284AD94B26A75BCDAE5E5C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
