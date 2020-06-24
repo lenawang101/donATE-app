@@ -49,6 +49,34 @@ class TrackDonationsViewController: UIViewController, UIImagePickerControllerDel
         }
         
     
+    @IBOutlet weak var insertMessage: UILabel!
+    
+    @IBOutlet weak var amountTextField: UITextField!
+ 
+    @IBOutlet weak var orgTextField: UITextField!
+    @IBOutlet weak var dateTextField: UITextField!
+    @IBAction func recordDonationButtonTapped(_ sender: Any) {
+        
+        if orgTextField.text != "" || dateTextField.text != "" || amountTextField.text != ""{
+            
+        
+        insertMessage.text = "Thank you for your contribution!"
+            
+            
+        }
+        
+        else{
+            insertMessage.text = "Please fill out all required fields."
+        }
+    }
+ 
+    //    @IBOutlet weak var insertFact: UILabel!
+//       @IBAction func buttonPushed(_ sender: UIButton) {
+//           let facts = ["I have a sister 14 years older than me!","I have broken a bone every year of high school!","I love science!","I live in Maryland.","I can speak Mandarin Chinese.","I love Avatar the Last Airbender!"]
+//           let number = Int.random(in:0...5)
+//           let chosenFact = facts[number]
+//           insertFact.text = chosenFact
+//       }
 
 
 

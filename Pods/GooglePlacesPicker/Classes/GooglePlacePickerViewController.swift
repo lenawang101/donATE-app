@@ -101,13 +101,13 @@ open class GooglePlacePickerViewController: UIViewController, UIViewControllerTr
         self.transitioningDelegate = self
     }
     
-    func placeTextFieldDidChange() {
+    @objc func placeTextFieldDidChange() {
         self.checkMaxLength(self.placeTextField, maxLength: 200)
         self.initList()
     }
     
     fileprivate func checkMaxLength(_ textField: UITextField!, maxLength: Int) {
-        if (textField.text?.characters.count > maxLength) {
+        if (textField.text?.count > maxLength) {
             textField.deleteBackward()
         }
     }

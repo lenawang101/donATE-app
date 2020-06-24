@@ -9,7 +9,7 @@ import Foundation
 
 open class GooglePlacesReciever {
 
-    open static var googlePlacesAPIKey = ""
+    public static var googlePlacesAPIKey = ""
     
     func googlePlacesByKeyWord(_ keyWord: String) -> NSDictionary {
         if let keyWordProsecced = keyWord.addingPercentEncoding(withAllowedCharacters: .urlHostAllowed),
