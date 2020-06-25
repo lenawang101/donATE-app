@@ -302,37 +302,21 @@
             <point key="canvasLocation" x="1332" y="-559"/>
         </scene>
         <!--View Controller-->
-        <scene sceneID="pET-jO-ynn">
-            <objects>
-                <viewController id="Kaa-Bm-O2u" customClass="ViewController" customModule="donATE_app" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="UFd-AP-CnM">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                        <viewLayoutGuide key="safeArea" id="Y7D-MR-DFt"/>
-                    </view>
-                    <navigationItem key="navigationItem" id="VJj-JU-RAx"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="qeR-hf-uMn" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="-745" y="836"/>
-        </scene>
-        <!--View Controller-->
         <scene sceneID="FVX-aH-9IR">
             <objects>
                 <viewController id="4aP-lh-9ec" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="eL6-3C-1E1">
-                        <rect key="frame" x="0.0" y="0.0" width="414" height="1046"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Dvc-lj-Ubw">
-                                <rect key="frame" x="0.0" y="0.0" width="414" height="1012"/>
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1146"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="vLY-SS-qJi">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="43"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="1500"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="43" id="si5-zc-735"/>
+                                            <constraint firstAttribute="height" constant="1500" id="si5-zc-735"/>
                                         </constraints>
                                     </stackView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="175 points " textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="CMi-I2-aOz">
@@ -368,7 +352,7 @@
                                             <color key="titleColor" red="0.67054692979999997" green="0.5414711525" blue="0.65248110500000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                                         </state>
                                         <connections>
-                                            <segue destination="Kaa-Bm-O2u" kind="show" id="ZKn-FX-c0O"/>
+                                            <segue destination="rGq-V1-mK8" kind="show" id="xeM-t2-QSn"/>
                                         </connections>
                                     </button>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="timothee" translatesAutoresizingMaskIntoConstraints="NO" id="gLV-CW-8t8">
@@ -497,6 +481,10 @@
                                         <rect key="frame" x="235" y="507" width="125" height="128"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="rethink" translatesAutoresizingMaskIntoConstraints="NO" id="lXm-aY-ITV">
+                                        <rect key="frame" x="79" y="710" width="256" height="144"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
                                 </subviews>
                                 <constraints>
                                     <constraint firstItem="Jqa-sO-S9S" firstAttribute="trailing" secondItem="2Cj-4P-rS2" secondAttribute="trailing" constant="282" id="6hP-WD-aCP"/>
@@ -543,21 +531,141 @@
                         <viewLayoutGuide key="safeArea" id="hy5-9U-pZD"/>
                     </view>
                     <navigationItem key="navigationItem" id="hx7-dl-Ba8"/>
-                    <size key="freeformSize" width="414" height="1100"/>
+                    <size key="freeformSize" width="414" height="1200"/>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="d4e-K5-piW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="25" y="164"/>
+            <point key="canvasLocation" x="21.739130434782609" y="225.66964285714283"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="Dec-3h-NEl">
+            <objects>
+                <viewController id="rGq-V1-mK8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="j2g-Rs-8GD">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="1646"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8GK-z4-Kyx">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="1646"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="j4U-b9-oYN">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="2500"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="2500" id="xHU-kT-lQa"/>
+                                        </constraints>
+                                    </stackView>
+                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="trE-wS-cHS">
+                                        <rect key="frame" x="8" y="13" width="53" height="39"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                        <state key="normal" title="Back">
+                                            <color key="titleColor" red="0.67054692979999997" green="0.5414711525" blue="0.65248110500000001" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                        </state>
+                                        <connections>
+                                            <segue destination="4aP-lh-9ec" kind="show" id="Jjy-Yc-8uA"/>
+                                        </connections>
+                                    </button>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About DonAte" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vfz-WA-Q5W">
+                                        <rect key="frame" x="93" y="238" width="229" height="46"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="38"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yRP-zf-nmJ">
+                                        <rect key="frame" x="42" y="309" width="331" height="329"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Welcome to DonAte! Our app converts food donation amounts to points which can be used for shoutouts from your favorite celebrities. The inspiration for this app emerged from some startling statistics that our team found during their Kode with Klossy camp together. U.S. restaurants generate an estimated 22-33 billion pounds of food waste each year. Additionally, approximately 4-10% of food purchased by restaurants is wasted before reaching the consumer. Thus, DonAte relieves the scourge of this issue by creating an advertising incentive for restaurants (and/or individuals) to donate their surplus food. </string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Meet our Creators!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DLr-Db-C2g">
+                                        <rect key="frame" x="28" y="666" width="240" height="36"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="30"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="alana" translatesAutoresizingMaskIntoConstraints="NO" id="qGU-Yo-Kvy">
+                                        <rect key="frame" x="28" y="722" width="166" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UcJ-mK-H6c">
+                                        <rect key="frame" x="202" y="722" width="204" height="250"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Hi, I'm Alana Foreman! I'm from New York and I love playing guitar, golf, and volunteering to teach immigrant families English! If I am not programming something, you can find me travelling the world, and cooking with my family. I speak 3 languages and hope to learn more.</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="lena" translatesAutoresizingMaskIntoConstraints="NO" id="XXf-BG-rx2">
+                                        <rect key="frame" x="221" y="999" width="166" height="275"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G3k-9m-FRx">
+                                        <rect key="frame" x="9" y="999" width="204" height="298"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Hi, I'm Lena Wang! I'm from Maryland and I love running, binging the latest Netflix shows, and going out with friends. I volunteer at the local hospital in my spare time and love to learn new things, such as programming, baking, and new languages. I enjoy traveling and hope to explore South America next!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="macy" translatesAutoresizingMaskIntoConstraints="NO" id="nhT-ND-yZo">
+                                        <rect key="frame" x="28" y="1313" width="166" height="278"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Screen Shot 2020-06-22 at 1.25.46 PM" translatesAutoresizingMaskIntoConstraints="NO" id="Ufz-fT-qrG">
+                                        <rect key="frame" x="-26" y="60" width="466" height="170"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </imageView>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="09W-hV-Gq2">
+                                        <rect key="frame" x="202" y="1293" width="204" height="298"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <string key="text">Hi, I'm Macy Jiang! I'm from New York and I enjoy playing violin, badminton, and reading sci-fi novels! I spend most of my time volunteering at my public library and learning about robotics and programming. In my spare time, I enjoy learning the dances and lyrics to my favorite pop songs!</string>
+                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="j4U-b9-oYN" firstAttribute="leading" secondItem="xaR-W8-th5" secondAttribute="leading" id="C1f-PI-fJb"/>
+                                    <constraint firstItem="j4U-b9-oYN" firstAttribute="width" secondItem="h90-MS-kVl" secondAttribute="width" id="LZy-o9-Wrj"/>
+                                    <constraint firstItem="j4U-b9-oYN" firstAttribute="bottom" secondItem="xaR-W8-th5" secondAttribute="bottom" id="WxC-aI-B2I"/>
+                                    <constraint firstItem="j4U-b9-oYN" firstAttribute="trailing" secondItem="xaR-W8-th5" secondAttribute="trailing" id="bDJ-BR-SZu"/>
+                                    <constraint firstItem="j4U-b9-oYN" firstAttribute="top" secondItem="xaR-W8-th5" secondAttribute="top" id="t8i-gR-dxX"/>
+                                </constraints>
+                                <viewLayoutGuide key="contentLayoutGuide" id="xaR-W8-th5"/>
+                                <viewLayoutGuide key="frameLayoutGuide" id="h90-MS-kVl"/>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="g9t-tE-Cqv"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MbT-ln-tm9"/>
+                    <size key="freeformSize" width="414" height="1700"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="172-oj-fgZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-765.21739130434787" y="1217.4107142857142"/>
         </scene>
     </scenes>
+    <inferredMetricsTieBreakers>
+        <segue reference="Jjy-Yc-8uA"/>
+    </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="1280" height="853.5"/>
         <image name="1" width="221.5" height="241"/>
         <image name="3" width="236" height="294"/>
         <image name="Screen Shot 2020-06-22 at 1.25.46 PM" width="364" height="402"/>
+        <image name="alana" width="750" height="1000"/>
         <image name="cc_colors_mauve" width="400" height="400"/>
         <image name="insertimage" width="1200" height="900"/>
+        <image name="lena" width="750" height="998"/>
+        <image name="macy" width="750" height="750"/>
         <image name="plus" catalog="system" width="128" height="113"/>
+        <image name="rethink" width="529.5" height="411.5"/>
         <image name="return" catalog="system" width="128" height="101"/>
         <image name="timothee" width="971" height="546"/>
     </resources>
