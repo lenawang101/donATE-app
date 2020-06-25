@@ -2,8 +2,8 @@
 //  AppDelegate.swift
 //  donATE app
 //
-//  Created by Lena Wang on 6/22/20.
-//  Copyright © 2020 Lena Wang. All rights reserved.
+//  Created by Alana Foreman on 6/22/20.
+//  Copyright © 2020 Alana Foreman. All rights reserved.
 //
 
 import UIKit

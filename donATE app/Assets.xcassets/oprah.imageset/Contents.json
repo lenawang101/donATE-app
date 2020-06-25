@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "d5c0465560362be1eb65e02bb2c2bb73--new-years-quotes-nice-hairstyles.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}
