@@ -126,6 +126,16 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="P5t-Tf-ckr">
+                                <rect key="frame" x="203" y="53" width="182" height="22"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Find a location" image="place_icon_notChoosed">
+                                    <color key="titleColor" red="0.61061322689999997" green="0.34853589530000001" blue="0.3834337592" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                                <connections>
+                                    <segue destination="Rbc-zX-84b" kind="show" id="uzz-cc-Kvu"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="cY9-a2-Aio"/>
@@ -142,6 +152,36 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cbl-9w-8dt" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="766.66666666666674" y="124.55357142857142"/>
+        </scene>
+        <!--Map View Controller-->
+        <scene sceneID="KLp-Q3-oUC">
+            <objects>
+                <viewController id="Rbc-zX-84b" customClass="MapViewController" customModule="donATE_app" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="JE8-UM-4mY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" mapType="standard" translatesAutoresizingMaskIntoConstraints="NO" id="Avj-PI-zkO">
+                                <rect key="frame" x="0.0" y="68" width="414" height="788"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </mapView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aBT-Qs-FXH">
+                                <rect key="frame" x="12" y="13" width="129" height="77"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="arrow.left" catalog="system"/>
+                                <connections>
+                                    <segue destination="vgR-cT-1gV" kind="showDetail" id="eWR-o5-rh3"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="D2r-R0-ala"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="941-av-Gbv"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBR-fa-tQD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1592.753623188406" y="128.57142857142856"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="Tsv-Br-lxy">
@@ -756,6 +796,7 @@
     </scenes>
     <inferredMetricsTieBreakers>
         <segue reference="Kds-ID-3OP"/>
+        <segue reference="eWR-o5-rh3"/>
     </inferredMetricsTieBreakers>
     <resources>
         <image name="0" width="1280" height="853.5"/>
@@ -764,12 +805,14 @@
         <image name="Screen Shot 2020-06-22 at 1.25.46 PM" width="364" height="402"/>
         <image name="addison" width="1080" height="1350"/>
         <image name="alana" width="750" height="1000"/>
+        <image name="arrow.left" catalog="system" width="128" height="98"/>
         <image name="cc_colors_mauve" width="400" height="400"/>
         <image name="charli" width="615" height="615"/>
         <image name="insertimage" width="1200" height="900"/>
         <image name="kim" width="964" height="1200"/>
         <image name="lena" width="750" height="998"/>
         <image name="macy" width="750" height="750"/>
+        <image name="place_icon_notChoosed" width="21" height="21"/>
         <image name="plus" catalog="system" width="128" height="113"/>
         <image name="rethink" width="529.5" height="411.5"/>
         <image name="return" catalog="system" width="128" height="101"/>

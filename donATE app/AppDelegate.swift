@@ -8,14 +8,28 @@
 
 import UIKit
 import CoreData
+import GooglePlaces
+import GoogleMaps
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
-
+    
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        GMSServices.provideAPIKey("AIzaSyA-mx06aFuSGAdpOMJb3yHCAs6O81G5JfI")
+        GMSPlacesClient.provideAPIKey("AIzaSyA-mx06aFuSGAdpOMJb3yHCAs6O81G5JfI")
+               
+        self.window = UIWindow(frame: UIScreen.main.bounds)
+        if let window = self.window {
+                   window.backgroundColor = UIColor.white
+                   
+                   let nav = UINavigationController()
+                   let mainView = ViewController()
+                   nav.viewControllers = [mainView]
+                   window.rootViewController = nav
+                   window.makeKeyAndVisible()
         return true
     }
 
@@ -35,7 +49,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     // MARK: - Core Data stack
 
-    lazy var persistentContainer: NSPersistentContainer = {
+        var persistentContainer: NSPersistentContainer = {
         /*
          The persistent container for the application. This implementation
          creates and returns a container, having loaded the store for the
@@ -77,6 +91,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
-
+        return false
 }
 
+}

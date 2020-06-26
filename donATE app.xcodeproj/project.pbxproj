@@ -17,6 +17,7 @@
 		AD04769C24A11FE4002CEE39 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AD04769A24A11FE4002CEE39 /* LaunchScreen.storyboard */; };
 		AD0476CD24A3A84D002CEE39 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0476CC24A3A84D002CEE39 /* HomePageViewController.swift */; };
 		AD0476CF24A3A88B002CEE39 /* TrackDonationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD0476CE24A3A88B002CEE39 /* TrackDonationsViewController.swift */; };
+		E6AC484824A63F59005F14AF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6AC484724A63F59005F14AF /* MapViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		AD0476CC24A3A84D002CEE39 /* HomePageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		AD0476CE24A3A88B002CEE39 /* TrackDonationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackDonationsViewController.swift; sourceTree = "<group>"; };
 		D9CF1A8532CB0A6E69A53FA4 /* Pods-donATE app.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-donATE app.release.xcconfig"; path = "Target Support Files/Pods-donATE app/Pods-donATE app.release.xcconfig"; sourceTree = "<group>"; };
+		E6AC484724A63F59005F14AF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,6 +91,7 @@
 				AD04768C24A11FDF002CEE39 /* AppDelegate.swift */,
 				AD04768E24A11FDF002CEE39 /* SceneDelegate.swift */,
 				AD04769024A11FDF002CEE39 /* ViewController.swift */,
+				E6AC484724A63F59005F14AF /* MapViewController.swift */,
 				AD04769224A11FDF002CEE39 /* Main.storyboard */,
 				AD04769824A11FE4002CEE39 /* Assets.xcassets */,
 				AD04769A24A11FE4002CEE39 /* LaunchScreen.storyboard */,
@@ -239,6 +242,7 @@
 				AD04769724A11FDF002CEE39 /* donATE_app.xcdatamodeld in Sources */,
 				AD0476CD24A3A84D002CEE39 /* HomePageViewController.swift in Sources */,
 				AD04768F24A11FDF002CEE39 /* SceneDelegate.swift in Sources */,
+				E6AC484824A63F59005F14AF /* MapViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
